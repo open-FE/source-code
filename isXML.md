@@ -51,3 +51,36 @@
 </body>  
 </html>
 ```
+
+```
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>isXML</title>  
+</head>  
+<body>  
+    <script>  
+        var isXML = function(doc) {  
+            return doc.createElement("p").nodeName !== doc.createElement("P").nodeName;  
+        }  
+
+    </script>  
+</body>  
+</html>
+```
+```
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <title>isHTML</title>  
+</head>  
+<body>  
+    <script>  
+        var isHTML = function(doc) {  
+            return doc.createElement("p").nodeName === doc.createElement("P").nodeName;  
+        }  
+        console.log(isHTML(document));  
+    </script>  
+</body>  
+</html>
+```
