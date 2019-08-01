@@ -11,4 +11,4 @@ js的各种api的实现和简单的js code
 
 [判断是否包含xml节点](https://github.com/open-FE/source-code/blob/master/isXML.md)
 
-[contains方法]()
+[contains方法](https://github.com/open-FE/source-code/blob/master/contains.md)
